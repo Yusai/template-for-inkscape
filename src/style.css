@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto , -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.75vmin;
+    /*align-items: stretch;*/
+    background: #333;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vmin;
+    color: white;
+    margin: 2vmin;
+}
+
+h1.zoom {
+    font-size: 2vmin;
+    margin: 0.5vmin;
+}
+
+#main {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 10vmin 0 5vmin 0;
+}
+
+#main > li {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    padding: 0.5vmin;
+}
+
+@media (min-width: 480px) {
+    #main > li {
+        max-width: 33.3%;
+    }
+}
+
+@media (min-width: 640px) {
+    #main > li {
+        max-width: 25%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #main > li {
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1440px) {
+    #main > li {
+        max-width: 12.5%;
+    }
+}
+
+@media (min-width: 1980px) {
+    #main > li {
+        max-width: 10%;
+    }
+}
+
+#main svg{
+    width: 100%;
+    border-radius: 0.25vmin;
+}
+
+#zoom {
+    height: 100vh;
+}
+
+#svgContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5vmin 1vmin;
+}
+
+#svgContainer svg {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 0.5vmin;
+}
+
+#tags {
+    position: fixed;
+    left: 0;
+    top: 10vmin;
+}
+
+#tags span {
+    background: #c3d825;
+    color: #1f3134;
+    font-weight: bold;
+    font-size: 2.5vmin;
+    border-radius: 0.5vmin;
+    margin: 0.5vmin;
+    padding: 0.5vmin 1vmin;
+    box-shadow: 0.1vmin 0.1vmin 0 gray;
+}
+
+#download {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vmin 3vmin;
+    font-weight: bold;
+    font-size: 3vmin;
+    border-radius: 0.5vmin;
+}
+
+@media screen and (min-width : 768px) {
+    #download {
+        padding: 1.5vmin 2.25vmin;
+        font-size: 2.5vmin;
+    }
+}
+
+@media screen and (min-width : 1440px) {
+    #download {
+        padding: 1vmin 1.75vmin;
+        font-size: 2vmin;
+    }
+}
+
+#download {
+    background: dodgerblue;
+    bottom: 2vmin;
+    right: 2vmin;
+    text-decoration: none;
+}
+
+#download span {
+    color: white;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 1.25vmin;
+}
+footer p {
+    color: white;
+    margin: 0.5vmin;
+}

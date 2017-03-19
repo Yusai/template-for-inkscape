@@ -6,6 +6,12 @@
 
 タイトルにあるようにInkscape向けに作ってありますが、中身はSVGファイルなのでそれを扱えるものならたぶんいけると思います。
 
+### 動作確認
+
+* Fifefox, GoogleChrome, MS Edgeにて動作することを確認しています。
+
+* ブラウザでフォントの最小サイズが設定されている場合、作者の意図しない表示となることがあります。ダウンロードしたSVGファイルに問題はないはずです。
+
 ## ソース
 
 * [THE NEW YORK PUBLIC LIBRARY](https://digitalcollections.nypl.org/)

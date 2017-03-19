@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template for Inkscape</title>
-    <style href='src/style.css'></style>
+    <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel='stylesheet' href='src/style.css'/>
 </head>
 <body>
-    <header></header>
-    <div id='main'></div>
-    <footer></footer>
-    <scrpit src='src/app.js'></scrpit>
+    <header>
+        <h1>Template for Inkscape</h1>
+    </header>
+    <ul id='main'></ul>
+    <div id="zoom" style='display:none'>
+        <div id="svgContainer"></div>
+        <div id='tags'></div>
+        <a id='download'><span>DL</span></a>
+    </div>
+    <footer>
+        <p>@Yusai Works</p>
+    </footer>
+    <script type='text/javascript' src='src/app.js'></script>
 </body>
 </html>

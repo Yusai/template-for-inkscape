@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -14,8 +15,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   sodipodi:docname="page170304_2.svg"
-   inkscape:version="0.92.0 r15299">
+   sodipodi:docname="page170304c.svg"
+   inkscape:version="0.92.1 r15371">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,11 +26,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70615758"
-     inkscape:cx="257.07407"
-     inkscape:cy="30.294797"
+     inkscape:zoom="0.50204708"
+     inkscape:cx="361.99314"
+     inkscape:cy="561.25992"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
      inkscape:showpageshadow="false"
@@ -65,6 +66,85 @@
       </cc:License>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="mark"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <g
+       transform="translate(1.2126195e-7,-1.2832905e-5)"
+       id="g4516">
+      <g
+         id="g4506">
+        <path
+           style="fill:none;stroke:#0d0015;stroke-width:0.2;stroke-linecap:round;paint-order:stroke fill markers"
+           d="m -12,0 h 9 v -12"
+           id="path4485"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccc" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#path4485"
+           id="use4502"
+           width="100%"
+           height="100%"
+           transform="matrix(0,1,1,0,0,0)" />
+      </g>
+      <use
+         transform="matrix(-1,0,0,1,210,0)"
+         height="100%"
+         width="100%"
+         id="use4508"
+         xlink:href="#g4506"
+         y="0"
+         x="0" />
+      <path
+         style="fill:#008899;stroke:#000000;stroke-width:0.2;stroke-linecap:round;paint-order:stroke fill markers"
+         d="m 105,-12 v 9"
+         id="path4524"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#008899;stroke:#000000;stroke-width:0.2;stroke-linecap:round;paint-order:stroke fill markers"
+         d="m 96,-5.9999998 h 18"
+         id="path4548"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#008899;stroke:#000000;stroke-width:0.2;stroke-linecap:round;paint-order:stroke fill markers"
+         d="m -12,148.50001 h 9.0000002"
+         id="path4554"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#008899;stroke:#000000;stroke-width:0.2;stroke-linecap:round;paint-order:stroke fill markers"
+         d="M -5.9999996,159 V 138"
+         id="path4556"
+         inkscape:connector-curvature="0" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g4516"
+       id="use4518"
+       width="100%"
+       height="100%"
+       transform="rotate(-180,105.00001,148.49998)" />
+  </g>
+  <g
+     inkscape:label="paper"
+     inkscape:groupmode="layer"
+     id="layer0"
+     sodipodi:insensitive="true">
+    <rect
+       x="0"
+       y="0"
+       width="210"
+       height="297"
+       id="rect5"
+       style="fill:#ffffff" />
+  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
