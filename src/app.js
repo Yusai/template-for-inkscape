@@ -1,5 +1,4 @@
-//A = [B, B = A][0]; // Swap
-
+//
 (function() {
     console.log('start app');
     //
@@ -8,19 +7,55 @@
     request.onload = function(event) {
         var json = JSON.parse(request.responseText);
         //Shuffle
-        for (var i = 0; i < json.length; i++) {
-            json.push(json.splice(Math.floor(Math.random(json.length) * 10), 1)[0]);
-        }
+        // for (var i = 0; i < json.length; i++) {
+        //     json.push(json.splice(Math.floor(Math.random(json.length) * 10), 1)[0]);
+        // }
         //start
         console.log(new Collection(json));
     }
     //
     request.send(null);
+    //
+    document.getElementById('btn-tag').addEventListener('click', function() {
+        var tmp = document.getElementById('tagList');
+        if (tmp.style.display == 'none') {
+            tmp.style.display = '';
+        } else {
+            tmp.style.display = 'none';
+        }
+    });
 })();
 //
 function Collection(json) {
     var _this = this;
     this.data = json;
+    //tags
+    this.tagName = 'none';
+    var tmp = ['none'];
+    json.forEach(function(e) {
+        //http://qiita.com/takeharu/items/d75f96f81ff83680013f
+        Array.prototype.push.apply(tmp, e.tags);
+    });
+    //http://qiita.com/cocottejs/items/7afe6d5f27ee7c36c61f
+    this.tags = tmp.filter(function(x, i, self) {
+        return self.indexOf(x) === i;
+    });
+    //
+    this.tags.forEach(function(e) {
+        var li = document.createElement('li');
+        li.innerHTML = e;
+        if (e == 'none') {
+            li.classList.add('on');
+        }
+        li.addEventListener('click', function() {
+            var tags = this.parentNode.getElementsByClassName('on')[0];
+            tags.classList.remove('on');
+            this.classList.add('on');
+            _this.tagName = this.innerHTML;
+            _this.refresh();
+        });
+        document.getElementById('tagList').appendChild(li);
+    });
     //
     function* generator(){
         yield* _this.data;
@@ -29,15 +64,27 @@ function Collection(json) {
     //
     var svgContainer = document.getElementById('svgContainer');
     svgContainer.addEventListener('click', function() {
-        _this.zoomHide();
+        zoom.hide();
+    });
+    //
+    more.$more().addEventListener('click', function() {
+        more.reset();
+        more.hide();
+        _this.loadItem();
     });
     //
     this.loadItem();
 }
 //
 Collection.prototype.loadItem = function() {
+    if (more.enable && !more.next()) {
+        more.show();
+        return;
+    }
+    //
     var data = this.g.next();
     if (data.done) {
+        more.hide();
         return;
     }
     //
@@ -52,21 +99,26 @@ Collection.prototype.loadItem = function() {
         var li = document.createElement('li');
         li.innerHTML = svg;
         li.addEventListener('click', function() {
-            _this.zoom(this, data.value);
+            _this.createZoom(this, data.value);
         });
+        //tag filter
+        var tmp = data.value.tags;
+        if (_this.tagName != 'none' && (!Array.isArray(tmp) || tmp.indexOf(_this.tagName) == -1)) {
+            li.style.display = 'none';
+        }
         //
         var svg = li.children[0];
         svg.removeAttribute('width');
         svg.removeAttribute('height');
         //
-        document.getElementById('main').appendChild(li);
+        document.getElementById('main').insertBefore(li, document.getElementById('more'));
         //
         _this.loadItem();
     };
     request.send(null);
 };
 //
-Collection.prototype.zoom = function(target, data) {
+Collection.prototype.createZoom = function(target, data) {
     var img = target.children[0].cloneNode(true);
     var svgContainer = document.getElementById('svgContainer');
     //
@@ -88,29 +140,55 @@ Collection.prototype.zoom = function(target, data) {
     download.setAttribute('href', 'template/' + data.file + '.svg');
     download.setAttribute('download', data.file + '.svg');
     //
-    this.zoomShow();
+    zoom.show();
 };
 //
-Collection.prototype.zoomShow = function() {
-    //
-    var main = document.getElementById('main');
-    main.style.display = 'none';
-    //
-    var zoom = document.getElementById('zoom');
-    zoom.style.display = '';
-    //
-    var h1 = document.getElementsByTagName('h1')[0];
-    h1.classList.add('zoom');
+Collection.prototype.refresh = function() {
+    var parent = document.getElementById('main');
+    var children = parent.children;
+    for (var i = 0; i < children.length - 1; i++) {
+        var tmp = this.data[i].tags;
+        if (this.tagName == 'none' || Array.isArray(tmp) && tmp.indexOf(this.tagName) >= 0){
+            children[i].style.display = '';
+        } else {
+            children[i].style.display = 'none';
+        }
+    }
 };
 //
-Collection.prototype.zoomHide = function() {
-    //
-    var main = document.getElementById('main');
-    main.style.display = '';
-    //
-    var zoom = document.getElementById('zoom');
-    zoom.style.display = 'none';
-    //
-    var h1 = document.getElementsByTagName('h1')[0];
-    h1.classList.remove('zoom');
+var zoom = {
+    container: function() {
+        return document.getElementById('zoom');
+    },
+    h1: function() {
+        return document.getElementsByTagName('h1')[0];
+    },
+    show: function() {
+        this.container().style.display = '';
+        this.h1().classList.add('zoom');
+    },
+    hide: function() {
+        this.container().style.display = 'none';
+        this.h1().classList.remove('zoom');
+    }
+};
+//
+var more = {
+    index: 10,
+    enable: false,
+    next: function() {
+        return --this.index >= 0;
+    },
+    reset: function() {
+        this.index = 10;
+    },
+    $more: function() {
+        return document.getElementById('more');
+    },
+    show: function() {
+        this.$more().style.display = '';
+    },
+    hide: function() {
+        this.$more().style.display = 'none';
+    }
 };

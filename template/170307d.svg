@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="paper170307a.svg">
+   sodipodi:docname="170307d.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,22 +26,26 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5010033"
-     inkscape:cx="326.18085"
-     inkscape:cy="501.31876"
+     inkscape:zoom="0.5"
+     inkscape:cx="561.25984"
+     inkscape:cy="396.85039"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
      borderlayer="true"
      inkscape:showpageshadow="false"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:bbox-nodes="false"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:object-paths="true"
      inkscape:snap-center="true"
-     inkscape:bbox-paths="true" />
+     inkscape:bbox-paths="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-intersection-paths="true"
+     showguides="true"
+     inkscape:guide-bbox="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -70,10 +74,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="mark"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:none"
+     transform="translate(0,-87)"
+     sodipodi:insensitive="true">
     <g
-       transform="translate(1.2126195e-7,-1.2832905e-5)"
+       transform="rotate(90,105.00001,192)"
        id="g4516">
       <g
          id="g4506">
@@ -130,146 +135,80 @@
        id="use4518"
        width="100%"
        height="100%"
-       transform="rotate(-180,105.00001,148.49998)" />
+       transform="rotate(-180,148.50001,192)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="white"
+     transform="translate(0,-87)"
      sodipodi:insensitive="true">
     <rect
        style="fill:#ffffff;stroke-width:0.05;stroke-linecap:round;paint-order:stroke fill markers"
        id="rect4494"
        width="210"
        height="297"
-       x="0"
-       y="5.6843419e-014" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="paper"
-     sodipodi:insensitive="true">
-    <path
-       style="fill:none;stroke:#302833;stroke-width:0.37795275;stroke-linecap:round;paint-order:stroke fill markers"
-       d="M 19.921875,82.333984 V 516.4375 H 773.7793 V 82.333984 Z"
-       transform="scale(0.26458333)"
-       id="path4597"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#302833;stroke-width:0.1;stroke-linecap:round;paint-order:stroke fill markers"
-       d="M 5.2709961,160.3592 V 275.21576 H 204.7291 V 160.3592 Z"
-       id="path4597-5"
-       inkscape:connector-curvature="0" />
+       x="87"
+       y="-297"
+       transform="rotate(90)" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="text"
+     transform="translate(0,-87)"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:19.75555611px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#0d0015;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.44378"
-       y="40.846653"
+       style="font-weight:bold;font-size:25.39999962px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#0d0015;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
+       x="148.86465"
+       y="139.79807"
        id="text4542"><tspan
          sodipodi:role="line"
          id="tspan4540"
-         x="105.44378"
-         y="40.846653"
+         x="148.86465"
+         y="139.79807"
          style="-inkscape-font-specification:'sans-serif Bold';text-align:center">TITLE</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:8.46666622px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#c9171e;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="104.49357"
-       y="127.85778"
+       style="font-weight:bold;font-size:11.28888893px;line-height:6.61458302px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#c9171e;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
+       x="147.91444"
+       y="274.68759"
        id="text4546"><tspan
          sodipodi:role="line"
          id="tspan4544"
-         x="104.49357"
-         y="127.85778">FOOTER</tspan></text>
+         x="147.91444"
+         y="274.68759">FOOTER</tspan></text>
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:9.87777805px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.04961"
-       y="192.05794"
-       id="text4601-7"><tspan
-         sodipodi:role="line"
-         id="tspan4599-3"
-         x="105.04961"
-         y="192.05794">SUB TITLE SUB TITLE</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:6.3499999px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.00005"
-       y="205.92799"
-       id="text4605-1"><tspan
-         sodipodi:role="line"
-         id="tspan4603-3"
-         x="105.00005"
-         y="205.92799"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif">item1 item2 item3 item4 item5 item6 item7 item8</tspan><tspan
-         sodipodi:role="line"
-         x="105.00005"
-         y="212.54257"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif"
-         id="tspan4609-1">item9 item10 item11 item12 item13 item14</tspan><tspan
-         sodipodi:role="line"
-         x="105.00005"
-         y="219.15717"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif"
-         id="tspan4619-2">item15 item16 item17</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:19.75555611px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#0d0015;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.44377"
-       y="179.42166"
-       id="text4542-8"><tspan
-         sodipodi:role="line"
-         id="tspan4540-3"
-         x="105.44377"
-         y="179.42166"
-         style="-inkscape-font-specification:'sans-serif Bold';text-align:center">TITLE</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:8.46666622px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#c9171e;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="104.49356"
-       y="266.43277"
-       id="text4546-7"><tspan
-         sodipodi:role="line"
-         id="tspan4544-1"
-         x="104.49356"
-         y="266.43277">FOOTER</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-weight:bold;font-size:9.87777805px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.04961"
-       y="53.482925"
+       style="font-weight:bold;font-size:12.69999981px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
+       x="148.47049"
+       y="170.38211"
        id="text4601"><tspan
          sodipodi:role="line"
          id="tspan4599"
-         x="105.04961"
-         y="53.482925">SUB TITLE SUB TITLE</tspan></text>
+         x="148.47049"
+         y="170.38211">SUB TITLE SUB TITLE</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:6.3499999px;line-height:6.61458349px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
-       x="105.00005"
-       y="67.352982"
+       style="font-size:7.76111126px;line-height:1.25em;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#302833;stroke-width:0.25;stroke-linecap:round;paint-order:stroke fill markers"
+       x="148.42093"
+       y="211.30641"
        id="text4605"><tspan
          sodipodi:role="line"
          id="tspan4603"
-         x="105.00005"
-         y="67.352982"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif">item1 item2 item3 item4 item5 item6 item7 item8</tspan><tspan
+         x="148.42093"
+         y="211.30641"
+         style="line-height:1.25em;-inkscape-font-specification:sans-serif">item1 item2 item3 item4 item5 item6 item7 item8</tspan><tspan
          sodipodi:role="line"
-         x="105.00005"
-         y="73.967567"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif"
+         x="148.42093"
+         y="221.0078"
+         style="line-height:1.25em;-inkscape-font-specification:sans-serif"
          id="tspan4609">item9 item10 item11 item12 item13 item14</tspan><tspan
          sodipodi:role="line"
-         x="105.00005"
-         y="80.582146"
-         style="line-height:6.61458349px;-inkscape-font-specification:sans-serif"
+         x="148.42093"
+         y="230.70918"
+         style="line-height:1.25em;-inkscape-font-specification:sans-serif"
          id="tspan4619">item15 item16 item17</tspan></text>
   </g>
 </svg>

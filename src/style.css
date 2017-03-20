@@ -21,6 +21,9 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    text-shadow: 0px 0px 3px black;
+    z-index: 2;
+    pointer-events: none;
 }
 
 h1 {
@@ -48,47 +51,43 @@ h1.zoom {
 #main > li {
     display: flex;
     align-items: center;
-    max-width: 50%;
-    padding: 0.5vmin;
-}
-
-@media (min-width: 480px) {
-    #main > li {
-        max-width: 33.3%;
-    }
-}
-
-@media (min-width: 640px) {
-    #main > li {
-        max-width: 25%;
-    }
-}
-
-@media (min-width: 1024px) {
-    #main > li {
-        max-width: 20%;
-    }
-}
-
-@media (min-width: 1440px) {
-    #main > li {
-        max-width: 12.5%;
-    }
-}
-
-@media (min-width: 1980px) {
-    #main > li {
-        max-width: 10%;
-    }
+    justify-content: center;
+    padding: 5px;
+    flex-grow: 1;
 }
 
 #main svg{
     width: 100%;
+    max-width: 150px;
     border-radius: 0.25vmin;
 }
 
+#more {
+    min-height: 20vmin;
+}
+
+#more div {
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+}
+
+#more span {
+    font-size: 2vmin;
+    font-weight: bold;
+    color: #333;
+}
+
 #zoom {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 #svgContainer {
@@ -111,14 +110,14 @@ h1.zoom {
 }
 
 #tags span {
-    background: #c3d825;
-    color: #1f3134;
+    background: white;
+    color: #333;
     font-weight: bold;
     font-size: 2.5vmin;
     border-radius: 0.5vmin;
     margin: 0.5vmin;
     padding: 0.5vmin 1vmin;
-    box-shadow: 0.1vmin 0.1vmin 0 gray;
+    box-shadow: 0px 0px 3px black;
 }
 
 #download {
@@ -157,6 +156,54 @@ h1.zoom {
     color: white;
 }
 
+#tag-container {
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.85);
+    align-items: center;
+    z-index: 1;
+}
+
+#tagList {
+    width: 100vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tagList li {
+    background: #333;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin: 0.5vmin;
+    padding: 5vmin;
+    text-align: center;
+    flex-grow: 1;
+    font-size: 2vmin;
+    min-width: 150px;
+}
+
+#tagList li.on {
+    background: white;
+    color: #333;
+}
+
+#btn-tag {
+    background: red;
+    color: white;
+    position: fixed;
+    top: 2vmin;
+    right: 2vmin;
+    padding: 2.5vmin 1.5vmin;
+    border-radius: 5vmin;
+    font-weight: bold;
+    font-size: 2vmin;
+}
+
 footer {
     width: 100%;
     position: fixed;
@@ -164,6 +211,8 @@ footer {
     left: 0;
     text-align: center;
     font-size: 1.25vmin;
+    text-shadow: 0px 0px 3px black;
+    pointer-events: none;
 }
 footer p {
     color: white;
