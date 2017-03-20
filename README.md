@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Template for Inkscape](https://yusai.github.io/template-for-inkscape/)
 
 ## はじめに
@@ -21,3 +22,6 @@
 * ### Template Files
 
 To the extent possible under law, the person who associated CC0 with this work has waived all copyright and related or neighboring rights to this work.
+=======
+# template-for-inkscape
+>>>>>>> origin/master
