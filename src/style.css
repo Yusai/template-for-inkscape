@@ -56,7 +56,7 @@ h1.zoom {
     flex-grow: 1;
 }
 
-#main svg{
+#main svg, #main img{
     width: 100%;
     max-width: 150px;
     border-radius: 0.25vmin;
@@ -97,7 +97,7 @@ h1.zoom {
     padding: 5vmin 1vmin;
 }
 
-#svgContainer svg {
+#svgContainer svg, #svgContainer img {
     width: 100%;
     max-height: 100%;
     border-radius: 0.5vmin;
@@ -210,11 +210,15 @@ footer {
     bottom: 0;
     left: 0;
     text-align: center;
-    font-size: 1.25vmin;
-    text-shadow: 0px 0px 3px black;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 footer p {
-    color: white;
     margin: 0.5vmin;
+}
+footer a {
+    font-size: 1.25vmin;
+    text-shadow: 0px 0px 0.5vmin black;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
