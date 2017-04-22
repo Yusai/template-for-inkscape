@@ -17,9 +17,23 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="Castellana_Hilton.svg">
+   sodipodi:docname="Castellana_Hilton@cover.svg">
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient4557">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4555" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4551">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4549" />
+    </linearGradient>
     <linearGradient
        id="linearGradient5991"
        osb:paint="solid">
@@ -46,7 +60,7 @@
        id="linearGradient5912"
        osb:paint="solid">
       <stop
-         style="stop-color:#9b0000;stop-opacity:1"
+         style="stop-color:#61222f;stop-opacity:1"
          offset="0"
          id="stop5910" />
     </linearGradient>
@@ -54,7 +68,7 @@
        id="linearGradient5906"
        osb:paint="solid">
       <stop
-         style="stop-color:#ffb300;stop-opacity:1"
+         style="stop-color:#b9a692;stop-opacity:1"
          offset="0"
          id="stop5904" />
     </linearGradient>
@@ -73,12 +87,12 @@
          id="g5124"
          transform="matrix(3.7795276,0,0,3.7795276,-24.149964,137.2041)">
         <path
-           style="fill:none;stroke:url(#linearGradient5991);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+           style="fill:none;stroke:url(#linearGradient4565);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
            d="M 6.3896782,-36.301918 23.78361,-14.493619"
            id="path5078"
            inkscape:connector-curvature="0" />
         <path
-           style="fill:none;stroke:url(#linearGradient5991);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
+           style="fill:none;stroke:url(#linearGradient4565);stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"
            d="M 23.78361,-36.301918 6.3896782,-14.493619"
            id="path5080"
            inkscape:connector-curvature="0" />
@@ -164,6 +178,36 @@
        xlink:href="#linearGradient5929"
        id="linearGradient5985"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5906"
+       id="linearGradient4553"
+       x1="-40.99168"
+       y1="87.756096"
+       x2="-23.849705"
+       y2="87.756096"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.8632582,15.252962)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5912"
+       id="linearGradient4559"
+       x1="-40.246376"
+       y1="110.67419"
+       x2="-23.477053"
+       y2="110.67419"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.8632582,15.252962)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5991"
+       id="linearGradient4565"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.29533979,0,0,0.23702981,-0.37265165,24.569253)"
+       x1="-135.00965"
+       y1="198.0795"
+       x2="-70.659257"
+       y2="198.0795" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -172,11 +216,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="347.74548"
-     inkscape:cy="331.09535"
+     inkscape:zoom="0.5"
+     inkscape:cx="343.47142"
+     inkscape:cy="607.18473"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:snap-page="true"
      inkscape:snap-bbox="false"
@@ -274,11 +318,38 @@
   </metadata>
   <g
      inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="pallet"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:url(#linearGradient4553);stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4545"
+       width="17.141975"
+       height="16.024021"
+       x="-39.128422"
+       y="94.997047" />
+    <rect
+       style="fill:url(#linearGradient4559);stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4547"
+       width="16.769323"
+       height="14.906066"
+       x="-38.383118"
+       y="118.47411" />
+    <rect
+       style="fill:url(#linearGradient4565);stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4561"
+       width="19.005234"
+       height="15.252962"
+       x="-40.246376"
+       y="71.520004" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="white"
      sodipodi:insensitive="true">
     <rect
-       style="fill:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       style="fill:url(#linearGradient4565);stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
        id="rect5996"
        width="216"
        height="303"
