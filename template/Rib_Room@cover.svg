@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Rib_Room.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5041151"
+     inkscape:cx="353.38293"
+     inkscape:cy="512.59304"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer6"
+     showgrid="true"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="false"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     inkscape:snap-global="true"
+     inkscape:bbox-paths="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-center="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="true"
+     showguides="false"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="105,300.00001"
+       orientation="0,1"
+       id="guide4495"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="105,-3.0000001"
+       orientation="0,1"
+       id="guide4497"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-2.9999999,148.5"
+       orientation="1,0"
+       id="guide4499"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="213,148.5"
+       orientation="1,0"
+       id="guide4501"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="142.30327,-36.961888"
+       orientation="1227.9496,416.30146"
+       id="guide5064"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="81.215108,311.95834"
+       orientation="1273.9703,431.90355"
+       id="guide5068"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="161.30364,117.30281"
+       orientation="93.900246,-276.97413"
+       id="guide5093"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="186.70664,34.22973"
+       orientation="93.900246,-276.97414"
+       id="guide5095"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="169.33455,85.60676"
+       orientation="93.900246,-276.97414"
+       id="guide5097"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="224.15825,110.96575"
+       orientation="-217.19199,640.64345"
+       id="guide5112"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:source>https://digitalcollections.nypl.org/items/af33c590-b2dd-55df-e040-e00a18063f79</dc:source>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="white"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;stroke-width:0.99999994"
+       id="rect4494"
+       width="215.88672"
+       height="303"
+       x="-3"
+       y="-3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="mark"
+     sodipodi:insensitive="true">
+    <g
+       id="g4516">
+      <g
+         id="g4506">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.2"
+           d="m -12,0 h 9 v -12"
+           id="path4485"
+           inkscape:connector-curvature="0" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#path4485"
+           id="use4502"
+           width="100%"
+           height="100%"
+           transform="matrix(0,1,1,0,0,0)" />
+      </g>
+      <use
+         transform="matrix(-1,0,0,1,210,0)"
+         height="100%"
+         width="100%"
+         id="use4508"
+         xlink:href="#g4506"
+         y="0"
+         x="0" />
+      <path
+         style="stroke:#000000;stroke-width:0.2"
+         d="m 105,-12 v 9"
+         id="path4524"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:0.2"
+         d="m 96,-6 h 18"
+         id="path4548"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:0.2"
+         d="m -12,148.5 h 9"
+         id="path4554"
+         inkscape:connector-curvature="0" />
+      <path
+         style="stroke:#000000;stroke-width:0.2"
+         d="M -6,159 V 138"
+         id="path4556"
+         inkscape:connector-curvature="0" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g4516"
+       id="use4518"
+       width="100%"
+       height="100%"
+       transform="rotate(-180,105,148.5)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="line"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:#302833;stroke:#460e44;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       d="M 28.065902,-3.000009 97.354267,201.37742 148.66068,183.98343 85.269241,-3.000009 28.065904,-3"
+       id="path5100"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#302833;stroke:#302833;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       d="m 125.23326,283.61108 -17.4132,-51.3631 51.30641,-17.39398 17.4132,51.36308 z"
+       id="path5132"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5126"
+       transform="rotate(-18.779025,-64.865337,378.37312)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path5120"
+         d="m 171.26231,340.96855 -0.11242,-31.55203 h -6.82886 l 0.11242,31.55203 z"
+         style="fill:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         sodipodi:nodetypes="ccscc"
+         inkscape:connector-curvature="0"
+         id="path5122"
+         d="m 150.76532,317.18188 -2.13401,-6.40206 c 10.59809,-5.12342 22.09178,6.68677 22.09178,16.34904 0,4.26803 -6.40206,3.44099 -6.40206,0 0.21428,-7.69213 -8.46257,-12.2628 -13.55571,-9.94698 z"
+         style="fill:#ffffff;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g5126"
+       id="use5128"
+       width="100%"
+       height="100%"
+       transform="matrix(-0.79273616,0.6095649,0.6095649,0.79273616,102.96759,-35.010979)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="title"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:22.57777786px;line-height:1.25em;font-family:serif;-inkscape-font-specification:'serif Bold';text-align:end;text-anchor:end;fill:#302833;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       id="text5104"><textPath
+         xlink:href="#path5114"
+         startOffset="100%"
+         id="textPath5145"><tspan
+   id="tspan5102"
+   style="text-align:end">RANDOM ROOM</tspan></textPath></text>
+    <path
+       style="fill:none;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round"
+       d="M -2.9999999,263.04581 201.89272,193.58275"
+       id="path5114"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>
