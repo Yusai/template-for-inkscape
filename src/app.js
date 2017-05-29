@@ -21,11 +21,13 @@ function Collection(json) {
     this.tagName = 'none';
     var tmp = ['none'];
     json.forEach(function(e) {
-        var tags = e.name.split('.')[0].split('@')[1];
-        if (tags) {
-            e.tags = tags.split('&');
-            //http://qiita.com/takeharu/items/d75f96f81ff83680013f
-            Array.prototype.push.apply(tmp, e.tags);
+        if (e.name.indexOf('@') != -1) {
+            var tags = e.name.split('@')[1].split('.')[0];
+            if (tags) {
+                e.tags = tags.split('&');
+                //http://qiita.com/takeharu/items/d75f96f81ff83680013f
+                Array.prototype.push.apply(tmp, e.tags);
+            }
         }
     });
     //http://qiita.com/cocottejs/items/7afe6d5f27ee7c36c61f
